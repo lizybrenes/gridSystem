@@ -1,1 +1,59 @@
-/* Inserta tu codigo aqui */
+header{
+	padding: 45px 0;
+	margin: 0;
+	color: #A9A9A9;
+	border-bottom: solid #9932CC 1px;
+	background: #9932CC;
+}
+.logo{
+	width: 160px;
+	height: 120px;
+	right: 180px;
+}
+p{
+	font-family: Arial;
+	color: blue;
+}
+nav ul{
+	list-style-type: none;
+	padding-top: 1px;
+	margin: 0 -15px 0 0;
+	float: right;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+nav li{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0px;
+}
+nav li:hover a{
+	background: #000000;
+}
+nav a{
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #F08080;
+	text-shadow: 2px 2px 4px #000;
+}
+nav a:hover {
+	color: #F08080;
+}
+
+.titulo{
+	position: left;
+    
+}
+.fotos{
+	width: 220px;
+	height: 220px;
+	display: inline-block !important;
+	color: #00FFFF;
+}
+
+.iconitos{
+	display: block;
+}
